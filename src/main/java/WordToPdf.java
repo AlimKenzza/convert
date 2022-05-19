@@ -5,10 +5,10 @@ public class WordToPdf {
     public static void main(String[] args) {
         //Загрузить образец документа Word
         Document document = new Document();
-        document.loadFromFile("C://Users/Alimzhan/Desktop/edocument.docx");
+        document.loadFromFile("C://Users/Alimzhan/IdeaProjects/untitled2/src/main/resources/files/edocument.docx");
 
 
         //Сохранить как PDF
-        document.saveToFile("C://Users/Alimzhan/Desktop/convertedPDF.pdf", FileFormat.PDF);
+        document.saveToFile("C://Users/Alimzhan/IdeaProjects/untitled2/src/main/resources/files/convertedPDF.pdf", FileFormat.PDF);
     }
 }
